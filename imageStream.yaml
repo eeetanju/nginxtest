@@ -4,7 +4,7 @@ metadata:
   generation: 1
   labels:
     app: helloworld
-  name: helloworld
+  name: helloworld-imagestream
   resourceVersion: '821267'
 spec:
   lookupPolicy:
