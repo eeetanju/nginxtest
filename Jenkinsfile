@@ -10,7 +10,6 @@ pipeline {
                 openshift.withCluster() {
                     openshift.withProject("myproject-uat") {
                         echo "Using project: ${openshift.project()}"
-						openshift.apply("-f imageStream.yaml")
                     }
                 }
             }
